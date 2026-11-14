@@ -1,7 +1,7 @@
 // Builds the submission documents (DOCX + PDF) directly from the Markdown source,
 // so the three formats always contain exactly the same text and screenshots.
 //
-//   node scripts/docs/build-submission-docs.mjs
+//   node scripts/docs/legacy/build-submission-docs.mjs
 //
 import fs from 'fs';
 import path from 'path';
