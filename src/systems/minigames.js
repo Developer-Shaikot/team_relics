@@ -3,7 +3,7 @@
 // 1. Moon (Apollo 11): "The Staging Sacrifice" — Tsiolkovsky Rocket Equation & Delta-V Puzzle
 // 2. Mars (Opportunity MER-B): "The Blueberries of Life" — APXS Alpha Particle X-Ray Spectroscopy Matcher
 // 3. Mars (InSight Lander): "Listening to the Heart of Mars" — Planetary Seismology P-Wave & S-Wave Analyzer
-// 4. Deep Space (Voyager 1): "The Dying Candle & The Golden Record" — RTG Power Budgeting, 22h Light-Delay & Golden Record Player
+// 4. Deep Space (Voyager 1): "The Dying Candle & The Golden Record" — RTG Power Budgeting, 24h Light-Delay & Golden Record Player
 
 import { martianAudio } from './audio.js';
 import { KIDS_MISSIONS_MARS } from '../data/kidsContent.js';
@@ -86,7 +86,7 @@ export class ScienceMiniGameManager {
       solved: false
     };
 
-    // Mission 4 (Voyager 1 RTG Power & 22h Light-Delay) State
+    // Mission 4 (Voyager 1 RTG Power & 24h Light-Delay) State
     this.voyagerState = {
       subsystems: {
         iss_camera: true,      // 28W (Should be OFF)
@@ -97,7 +97,7 @@ export class ScienceMiniGameManager {
         dsn_transmitter: true  // 178W (Should be ON)
       },
       transmitting: false,
-      lightTravelProgress: 0, // 0 to 1 (represents 22h 34m 18s)
+      lightTravelProgress: 0, // 0 to 1 (represents 23h 59m 53s)
       goldenRecordUnlocked: false,
       selectedGreetingIdx: 0,
       flutePlaying: false
@@ -230,9 +230,9 @@ export class ScienceMiniGameManager {
       if (subEl) subEl.innerText = "Listen to real synthesized Marsquake acoustics and align the P-Wave and S-Wave arrivals to probe Mars's liquid core.";
       this.renderInSightWorkbench(container);
     } else if (this.activeMissionKey === 'voyager1') {
-      if (badgeEl) badgeEl.innerText = "MISSION 4 • INTERSTELLAR DEEP SPACE (24.3 BILLION KM)";
+      if (badgeEl) badgeEl.innerText = "MISSION 4 • INTERSTELLAR DEEP SPACE (25.9 BILLION KM)";
       if (titleEl) titleEl.innerText = "Voyager 1 — The Dying Candle & The Golden Record";
-      if (subEl) subEl.innerText = "Balance decaying Plutonium-238 RTG power (249W limit), experience the 22-hour light-travel time delay, and unlock the Golden Record.";
+      if (subEl) subEl.innerText = "Balance decaying Plutonium-238 RTG power (249W limit), experience the 24-hour light-travel time delay, and unlock the Golden Record.";
       this.renderVoyagerWorkbench(container);
     }
   }
@@ -662,7 +662,7 @@ export class ScienceMiniGameManager {
   }
 
   // =========================================================================
-  // MISSION 4: VOYAGER 1 — RTG POWER BUDGET, 22H LIGHT-DELAY & GOLDEN RECORD
+  // MISSION 4: VOYAGER 1 — RTG POWER BUDGET, 24H LIGHT-DELAY & GOLDEN RECORD
   // =========================================================================
   calculateVoyagerPower() {
     const costs = {
@@ -692,15 +692,15 @@ export class ScienceMiniGameManager {
     const activeCmdr = localStorage.getItem('jdsn_selected_commander') || 'asha';
     const isBn = this.currentLanguage === 'bn';
     const cmdrTitle = activeCmdr === 'asha'
-      ? (isBn ? 'কমান্ডার আশা (ঢাকা ডিপ স্পেস নেটওয়ার্ক • ২৪.৩ বিলিয়ন কিমি)' : 'COMMANDER ASHA • DHAKA DEEP SPACE NETWORK (24.3B KM)')
-      : (isBn ? 'কমান্ডার লিও (ফ্লোরিডা মিশন কন্ট্রোল • ২৪.৩ বিলিয়ন কিমি)' : 'COMMANDER LEO • FLORIDA MISSION CONTROL (24.3B KM)');
+      ? (isBn ? 'কমান্ডার আশা (ঢাকা ডিপ স্পেস নেটওয়ার্ক • ২৫.৯ বিলিয়ন কিমি)' : 'COMMANDER ASHA • DHAKA DEEP SPACE NETWORK (25.9B KM)')
+      : (isBn ? 'কমান্ডার লিও (ফ্লোরিডা মিশন কন্ট্রোল • ২৫.৯ বিলিয়ন কিমি)' : 'COMMANDER LEO • FLORIDA MISSION CONTROL (25.9B KM)');
     const cmdrQuote = activeCmdr === 'asha'
       ? (isBn
-          ? '"কমান্ডার! ভয়েজার ১ সূর্যের আলোর সীমানা ছাড়িয়ে ২৪.৩ বিলিয়ন কিমি দূরে ইন্টারস্টেলার মহাশূন্যে। এর প্লুটোনিয়াম-২৩৮ নিউক্লিয়ার ব্যাটারি (RTG) থেকে প্রতি বছর ৪ ওয়াট ক্ষয় হয়ে বর্তমানে ২৪৯ ওয়াটে নেমে এসেছে! ক্যামেরার পাওয়ার (-২৮W) ও স্ক্যান হিটার (-২৪W) বন্ধ করে দাও যাতে ম্যাগনেটোমিটার ও ট্রান্সমিটার চালানোর পর্যাপ্ত শক্তি থাকে, তারপর ট্রান্সমিট বাটন টিপে ২২ ঘণ্টার রেডিও হ্যান্ডশেক সম্পন্ন করো!"'
-          : '"Commander! Voyager 1 is 24.3 billion km away in interstellar space where sunlight never reaches. Its Plutonium-238 nuclear battery (RTG) is down to 249W! Shut down the ISS Cameras (-28W) and Scan Heater (-24W) so we have enough power for the Magnetometer and High-Gain Transmitter, then send our 22-hour light-speed handshake!"')
+          ? '"কমান্ডার! ভয়েজার ১ সূর্যের আলোর সীমানা ছাড়িয়ে ২৫.৯ বিলিয়ন কিমি দূরে ইন্টারস্টেলার মহাশূন্যে। এর প্লুটোনিয়াম-২৩৮ নিউক্লিয়ার ব্যাটারি (RTG) থেকে প্রতি বছর ৪ ওয়াট ক্ষয় হয়ে বর্তমানে ২৪৯ ওয়াটে নেমে এসেছে! ক্যামেরার পাওয়ার (-২৮W) ও স্ক্যান হিটার (-২৪W) বন্ধ করে দাও যাতে ম্যাগনেটোমিটার ও ট্রান্সমিটার চালানোর পর্যাপ্ত শক্তি থাকে, তারপর ট্রান্সমিট বাটন টিপে ২২ ঘণ্টার রেডিও হ্যান্ডশেক সম্পন্ন করো!"'
+          : '"Commander! Voyager 1 is 25.9 billion km away in interstellar space where sunlight never reaches. Its Plutonium-238 nuclear battery (RTG) is down to 249W! Shut down the ISS Cameras (-28W) and Scan Heater (-24W) so we have enough power for the Magnetometer and High-Gain Transmitter, then send our 24-hour light-speed handshake!"')
       : (isBn
           ? '"কমান্ডার! সূর্য এখানে কেবল একটি মৃদু তারা! ভয়েজার ১-এর নিউক্লিয়ার পাওয়ার বাজেট ২৪৯ ওয়াটের নিচে ব্যালেন্স করতে হবে। ক্যামেরা ও হিটার অফ করে দাও, এরপর হ্যান্ডশেক পাঠিয়ে ২২ ঘণ্টা ৩৪ মিনিটের রেডিও লিঙ্ক স্থাপন করো ও গোল্ডেন রেকর্ড আনলক করে মাস্টার সার্টিফিকেট অর্জন করো!"'
-          : '"Commander! Solar panels are useless in deep space. Balance the RTG nuclear power matrix below 249W by shutting down the ISS cameras and scan heater. Then hit Transmit Handshake to establish our 22-hour radio link, unlock the Golden Record, and claim your Interstellar Master Certificate!"');
+          : '"Commander! Solar panels are useless in deep space. Balance the RTG nuclear power matrix below 249W by shutting down the ISS cameras and scan heater. Then hit Transmit Handshake to establish our 24-hour radio link, unlock the Golden Record, and claim your Interstellar Master Certificate!"');
 
     container.innerHTML = `
       <div class="mg-dialogue-strip">
@@ -714,7 +714,7 @@ export class ScienceMiniGameManager {
           <canvas id="mg-live-canvas" width="540" height="300"></canvas>
           <div class="mg-formula-bar">
             <span><strong>Pu-238 Decay:</strong> −4.0 W/yr (249W Left)</span>
-            <span class="mg-target-pill">One-Way Light Travel (t = d/c): 22h 34m 18s</span>
+            <span class="mg-target-pill">One-Way Light Travel (t = d/c): 23h 59m 53s</span>
           </div>
         </div>
 
@@ -752,7 +752,7 @@ export class ScienceMiniGameManager {
 
           <div class="mg-status-banner ${pwr.isOptimal ? 'ready' : 'blocked'}">
             ${pwr.isOptimal
-              ? "✅ RTG POWER BALANCED AT 245W / 249W! Ready to transmit across 24.3 billion km!"
+              ? "✅ RTG POWER BALANCED AT 245W / 249W! Ready to transmit across 25.9 billion km!"
               : !pwr.withinBudget
                 ? `⚠️ OVERLOAD (${pwr.usedWatts}W > 249W)! Turn OFF the ISS Cameras (-28W) and Scan Heater (-24W) to prevent brownout!`
                 : "⚠️ Keep Magnetometer, Plasma Wave, and DSN Transmitter ON for interstellar telemetry!"}
@@ -762,7 +762,7 @@ export class ScienceMiniGameManager {
             📡 TRANSMIT HANDSHAKE (SIMULATE 22-HOUR LIGHT-TRAVEL DELAY)
           </button>
 
-          <!-- GOLDEN RECORD INTERACTIVE PLAYER (Unlocks after 22h Light-Delay Handshake) -->
+          <!-- GOLDEN RECORD INTERACTIVE PLAYER (Unlocks after 24h Light-Delay Handshake) -->
           <div class="mg-golden-record-box" id="voyager-golden-record-ui" style="display: ${this.voyagerState.goldenRecordUnlocked ? 'block' : 'none'};">
             <div class="gr-header">
               <span>📀 <strong>${isBn ? 'ভয়েজার গোল্ডেন রেকর্ড আনলকড (৫৫টি ভাষা ও পৃথিবীর শব্দ)' : 'VOYAGER GOLDEN RECORD UNLOCKED (55 LANGUAGES & SOUNDS OF EARTH)'}</strong></span>
@@ -832,7 +832,7 @@ export class ScienceMiniGameManager {
         speaker: 'both',
         emotion: 'celebrating',
         title: "VOYAGER 1 GOLDEN RECORD • INTERSTELLAR HARMONY",
-        text: "Listen! Across 24.3 billion kilometers of dark space, humanity's greetings and the bamboo flute melody are still shining in the cosmos!"
+        text: "Listen! Across 25.9 billion kilometers of dark space, humanity's greetings and the bamboo flute melody are still shining in the cosmos!"
       });
     });
 
@@ -1083,7 +1083,7 @@ export class ScienceMiniGameManager {
     ctx.fillStyle = '#030712';
     ctx.fillRect(0, 0, w, h);
 
-    // Advance 22-hour light-travel progress if transmitting
+    // Advance 24-hour light-travel progress if transmitting
     if (this.voyagerState.transmitting) {
       this.voyagerState.lightTravelProgress = Math.min(1, this.voyagerState.lightTravelProgress + 0.0045);
       if (this.voyagerState.lightTravelProgress >= 1 && !this.voyagerState.goldenRecordUnlocked) {
@@ -1103,11 +1103,11 @@ export class ScienceMiniGameManager {
           : "22H 34M LATER • VOYAGER 1 HANDSHAKE RECEIVED!";
         const commsText = activeCmdr === 'asha'
           ? (isBn
-              ? "সিগন্যাল লকড! ২৪.৩ বিলিয়ন কিমি দূর থেকে গোল্ডেন রেকর্ড আনলক হয়েছে—তারার মাঝে বাংলা শুভেচ্ছা ও বাঁশির সুর প্রতিধ্বনিত হচ্ছে! তোমার ইন্টারস্টেলার মাস্টার সার্টিফিকেট প্রস্তুত!"
-              : "Signal locked at 24.3 billion km! Golden Record unlocked—humanity's greetings and bamboo flute are shining in the cosmos! Your Interstellar Master Certificate is ready!")
+              ? "সিগন্যাল লকড! ২৫.৯ বিলিয়ন কিমি দূর থেকে গোল্ডেন রেকর্ড আনলক হয়েছে—তারার মাঝে বাংলা শুভেচ্ছা ও বাঁশির সুর প্রতিধ্বনিত হচ্ছে! তোমার ইন্টারস্টেলার মাস্টার সার্টিফিকেট প্রস্তুত!"
+              : "Signal locked at 25.9 billion km! Golden Record unlocked—humanity's greetings and bamboo flute are shining in the cosmos! Your Interstellar Master Certificate is ready!")
           : (isBn
-              ? "টেলিমেট্রি নিশ্চিত! হেলিওপজের ওপারে ২৪.৩ বিলিয়ন কিমিতে ভয়েজার ১ আমাদের সিগন্যাল গ্রহণ করেছে! ইন্টারস্টেলার মাস্টার সার্টিফিকেট আনলক হয়েছে!"
-              : "Telemetry confirmed! Past the Heliopause at 24.3 billion km, Voyager 1 locked our signal! Your Interstellar Master Certificate is unlocked!");
+              ? "টেলিমেট্রি নিশ্চিত! হেলিওপজের ওপারে ২৫.৯ বিলিয়ন কিমিতে ভয়েজার ১ আমাদের সিগন্যাল গ্রহণ করেছে! ইন্টারস্টেলার মাস্টার সার্টিফিকেট আনলক হয়েছে!"
+              : "Telemetry confirmed! Past the Heliopause at 25.9 billion km, Voyager 1 locked our signal! Your Interstellar Master Certificate is unlocked!");
 
         this.actorDirector?.triggerCommsDialogue({
           speaker: activeCmdr,
@@ -1177,16 +1177,16 @@ export class ScienceMiniGameManager {
     ctx.restore();
 
     ctx.fillStyle = '#fbbf24';
-    ctx.fillText('🛰️ Voyager 1 (162 AU)', voyagerX - 58, lineY + 36);
+    ctx.fillText('🛰️ Voyager 1 (173 AU)', voyagerX - 58, lineY + 36);
 
     // Simulated Light-Travel Time Counter
-    const totalMinutes = Math.round(prog * (22 * 60 + 34));
+    const totalMinutes = Math.round(prog * (23 * 60 + 59));
     const hrs = Math.floor(totalMinutes / 60);
     const mins = totalMinutes % 60;
     ctx.fillStyle = '#e2e8f0';
     ctx.font = 'bold 14px "JetBrains Mono", monospace';
     ctx.fillText(
-      `⏱️ Light-Speed Signal Elapsed Time: ${hrs.toString().padStart(2, '0')}h ${mins.toString().padStart(2, '0')}m / 22h 34m (Distance: ${(prog * 24.3).toFixed(1)}B km)`,
+      `⏱️ Light-Speed Signal Elapsed Time: ${hrs.toString().padStart(2, '0')}h ${mins.toString().padStart(2, '0')}m / 23h 59m (Distance: ${(prog * 25.9).toFixed(1)}B km)`,
       32,
       h - 22
     );

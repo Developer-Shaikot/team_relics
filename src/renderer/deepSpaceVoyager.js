@@ -1,7 +1,7 @@
 import * as THREE from 'three';
 import { scaledCount } from '../systems/performance.js';
 
-// Deep Space Interstellar Environment (24.3 Billion km / 162 AU) & Articulated Voyager 1 3D Actor
+// Deep Space Interstellar Environment (25.9 Billion km / 173 AU) & Articulated Voyager 1 3D Actor
 export function createDeepSpaceVoyager() {
   const environmentGroup = new THREE.Group();
   environmentGroup.name = "deep_space_environment_group";
@@ -291,7 +291,7 @@ export function createDeepSpaceVoyager() {
   pws2.rotation.z = -0.4;
   voyager.add(pws2);
 
-  // H. Radio Handshake Carrier Wave Rings (Animated during 22h Light-Delay Handshake)
+  // H. Radio Handshake Carrier Wave Rings (Animated during 24h Light-Delay Handshake)
   const radioWaveGroup = new THREE.Group();
   radioWaveGroup.position.set(0, 1.1, 0);
   const waveRings = [];

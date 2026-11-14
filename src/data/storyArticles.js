@@ -94,19 +94,19 @@ export const MISSION_STORY_ARTICLES = {
     readTime: "4 MIN READ",
     author: "NASA Jet Propulsion Laboratory • Interstellar Heritage",
     title: "Voyager 1: The Dying Candle in Interstellar Space",
-    subtitle: "Over 24 billion kilometers from Earth, carrying humanity's Golden Record into the dark.",
+    subtitle: "About 26 billion kilometers from Earth — one light-day, carrying humanity's Golden Record into the dark.",
     heroImage: "./images/thumb_roadmap.jpg",
-    tags: ["Heliopause", "Pu-238 RTG", "Golden Record", "22h 34m Delay"],
+    tags: ["Heliopause", "Pu-238 RTG", "Golden Record", "23h 59m Delay"],
     summary: "Launched in 1977, Voyager 1 is the farthest human-made object in history. Powered by decaying plutonium pellets, it crossed into the interstellar medium, carrying our sounds, art, and greetings to the stars.",
     paragraphs: [
       "On September 5, 1977, Voyager 1 blasted off from Cape Canaveral atop a Titan IIIE rocket. Its grand tour took it past the swirling storms of Jupiter and the breathtaking icy rings of Saturn. But its most heroic chapter began after its primary mission ended.",
       "Voyager 1 accelerated outward toward the boundary where the solar wind gives way to the icy sea of interstellar space. On August 25, 2012, its plasma wave sensors recorded a sudden jump in cosmic ray density: Voyager 1 had crossed the Heliopause. It had become humanity's first interstellar ambassador.",
-      "Today, Voyager 1 is over 24.3 billion kilometers (162 Astronomical Units) away. A radio signal traveling at the speed of light takes 22 hours and 34 minutes to reach it, and another 22 hours to return. Its radioactive Plutonium-238 generators produce less heat each passing year, forcing engineers to turn off heaters and instruments one by one to keep the candle burning.",
+      "Today, Voyager 1 is about 25.9 billion kilometers (173 Astronomical Units) away. A radio signal traveling at the speed of light takes about 24 hours (one light-day) to reach it, and another 24 hours to return. Its radioactive Plutonium-238 generators produce less heat each passing year, forcing engineers to turn off heaters and instruments one by one to keep the candle burning.",
       "Bolted to its side is the Golden Record—a gold-plated copper phonograph containing the sounds of ocean surf, laughter, bird calls, Bach, Chuck Berry, and greetings in 55 human languages. When its last radio whisper goes quiet around 2028, Voyager 1 will wander the Milky Way for billions of years—an indestructible monument to human curiosity."
     ],
     fastFacts: [
-      { label: "Current Distance", val: "24.3+ Billion km (162 AU)" },
-      { label: "Radio Light Time", val: "22 hours, 34 minutes each way" },
+      { label: "Current Distance", val: "About 25.9 Billion km (173 AU)" },
+      { label: "Radio Light Time", val: "About 24 hours (1 light-day) each way" },
       { label: "Nuclear Power", val: "Pu-238 RTG decay (~220 Watts left)" },
       { label: "Mission Challenge", val: "Manage power grid & decode Golden Record" }
     ],

@@ -4,6 +4,14 @@
 
 **2026 NASA International Space Apps Challenge · Team Relics**
 
+**Project links**
+
+- **Play the game:** [https://asgames.com.bd/](https://asgames.com.bd/)
+- **Play the game (mirror):** [https://team-relics-nasa-2k26.vercel.app/](https://team-relics-nasa-2k26.vercel.app/)
+- **240-second project video:** [https://youtu.be/phnpSRceekE](https://youtu.be/phnpSRceekE)
+- **30-second demo video:** [https://youtu.be/jb1LwUzJdu4](https://youtu.be/jb1LwUzJdu4)
+- **GitHub repository:** [https://github.com/Developer-Shaikot/team_relics](https://github.com/Developer-Shaikot/team_relics)
+
 | | |
 | :-- | :-- |
 | **Challenge** | Abandoned but Not Forgotten: Storytelling About NASA's Discarded Equipment on the Moon and Mars |
@@ -53,7 +61,7 @@ Instead of reading a list of facts, the child:
 - **watches a one-minute tour** of the real game before they start;
 - **drives a rover** across the Moon and Mars toward a glowing beacon;
 - **chooses when to scan** a relic and reads its story in plain language;
-- **tilts and inspects Voyager 1** in deep space, 24.3 billion km from Earth;
+- **tilts and inspects Voyager 1** in deep space, about 25.9 billion km from Earth — one light-day away;
 - **runs four interactive science labs** (rocket staging, X-ray spectroscopy, seismology, deep-space telemetry);
 - **earns Cosmic Dust, Gems, XP, badges and a Master Certificate**.
 
@@ -144,7 +152,7 @@ Each world has a six-level, winding roadmap (11). Completed levels glow, the nex
 
 #### Step 6 — Deep Space with Voyager 1 (tile 23)
 
-In deep space there is no ground, so the game becomes an inspection scene (23). The child rotates Voyager 1 with **W / A / S / D** and inspects its parts (high-gain dish, RTG power source, Golden Record) while the HUD reminds them that a radio message takes **22 hours 34 minutes** to arrive from 24.3 billion km away. The Science Lab opens only when the child chooses it (press **E** or click).
+In deep space there is no ground, so the game becomes an inspection scene (23). The child rotates Voyager 1 with **W / A / S / D** and inspects its parts (high-gain dish, RTG power source, Golden Record) while the HUD reminds them that a radio message takes **about 24 hours** (one light-day) to arrive from 25.9 billion km away. The Science Lab opens only when the child chooses it (press **E** or click).
 
 #### Step 7 — Four hands-on science labs (tiles 24–27)
 
@@ -184,14 +192,14 @@ Every relic in the game is real NASA hardware. Each one is paired with one clear
 | 2 | **Hematite "blueberries"** (APXS) | 2004 | Tiny iron-rich spheres showing that liquid water once soaked this ground. |
 | 3 | **Rock Abrasion Tool (RAT)** | 2004+ | A diamond grinder that cleaned dust from rock to reveal what lay beneath. |
 | 4 | **InSight lander** | 2018–2022 | Its seismometer recorded 1,319 marsquakes and revealed Mars's core. |
-| 5 | **Sol 5111 dust storm** | 2018 | A planet-wide storm blocked the sunlight and silenced Opportunity: *"My battery is low and it's getting dark."* |
+| 5 | **Sol 5111 dust storm** | 2018 | A planet-wide storm blocked the sunlight and silenced Opportunity. People often remember its last signal as *"My battery is low and it's getting dark"* — a poetic summary of its final data, not words the rover actually sent. |
 | 6 | **Voyager 1 & the Golden Record** | 1977– | A gold-plated disc of Earth's sounds, music and greetings in 55 languages, now in interstellar space. |
 
 #### Deep space
 
 | Relic | Story |
 | :-- | :-- |
-| **Voyager 1** | Launched in 1977, now more than 24 billion km away and still sending data using a plutonium power source that weakens every year. |
+| **Voyager 1** | Launched in 1977, now about 25.9 billion km away and still sending data using a plutonium power source that weakens every year. On 18 November 2026 — during judging week — it becomes the first spacecraft ever to reach one light-day from Earth: a radio signal now needs a full 24 hours to cross the gap. |
 
 ### 2.5 Science you can feel — the learning mechanics
 
@@ -203,7 +211,7 @@ The game never asks a child to memorise an equation. It lets them feel the idea 
 | **Spectroscopy** | Opportunity APXS lab | Line up X-ray peaks to identify iron in a rock. |
 | **Seismology** | InSight lab | Match P-wave and S-wave arrival times to find a quake's distance. |
 | **Power budgets** | Voyager lab | Switch off instruments so the power draw drops below what the RTG can supply. |
-| **Light-travel time** | Voyager HUD and lab | See why a message to a probe 24.3 billion km away takes 22 h 34 min. |
+| **Light-travel time** | Voyager HUD and lab | See why a message to a probe about 25.9 billion km away takes about 24 hours — a full light-day. |
 | **Dust and sunlight** | Mars Sol 5111 level | See how atmospheric dust reduces solar-panel power. |
 | **Low gravity** | Moon and Mars HUD | Watch the G-force read-out change between the Moon (0.16 g) and Mars (0.38 g). |
 
@@ -268,7 +276,7 @@ During testing we found that children dislike being interrupted, but also get lo
 **Who benefits**
 
 - **School students, and anyone curious about space,** meet real NASA history through play instead of text.
-- **Teachers and parents** get a classroom-ready, no-install tool with built-in quiz and certificate.
+- **Teachers and parents** get a classroom-ready, no-install tool with built-in quizzes and certificates.
 - **Learners with ordinary computers or phones** can play in any browser with nothing to install.
 - **Siblings and classmates** can share one device with separate profiles.
 
@@ -304,7 +312,7 @@ _Figure 4 — The mobile experience in seven steps, captured from the real game 
 
 ### 2.10 Take-home poster for children
 
-To bring the game to children who never see the submission page, we designed an A4 poster to print and hand out at schools, clubs and science events. Its QR code opens **[nasa-2k26.vercel.app](https://nasa-2k26.vercel.app)** directly, so a short visit can turn into an adventure at home. The print-ready file is [`poster/Relics_Kids_Poster_A4.pdf`](./poster/Relics_Kids_Poster_A4.pdf).
+To bring the game to children who never see the submission page, we designed an A4 poster to print and hand out at schools, clubs and science events. Its QR code opens the game directly, so a short visit can turn into an adventure at home. The game can also be reached at [https://asgames.com.bd/](https://asgames.com.bd/) or [https://team-relics-nasa-2k26.vercel.app/](https://team-relics-nasa-2k26.vercel.app/). The print-ready file is [`poster/Relics_Kids_Poster_A4.pdf`](./poster/Relics_Kids_Poster_A4.pdf).
 
 ![Figure 5 — The A4 take-home poster](./images/21_kids_poster.jpg)
 
@@ -312,19 +320,19 @@ _Figure 5 — The A4 take-home poster: the three worlds, six things to do, and a
 
 ### 2.11 How we worked — an Agile process
 
-We built the project in **five short sprints between 27 September and 12 November 2026**. Each sprint started from a prioritised backlog of user stories (for example, *"As a 7-year-old I can drive the rover without a keyboard"*) and ended with a playable build that we reviewed together. What we learned in each review, especially from watching children play, went straight into the next sprint's plan.
+We built the project in **five short sprints**. Each sprint started from a prioritised backlog of user stories (for example, *"As a 7-year-old I can drive the rover without a keyboard"*) and ended with a playable build that we reviewed together. What we learned in each review, especially from watching children play, went straight into the next sprint's plan.
 
 ![Figure 6 — Our Agile process: sprint loop, branch flow and the five sprints](./images/20_agile_process.jpg)
 
 _Figure 6 — Our Agile process. Each sprint went through Plan → Build → Test on QA → Review. Work moved from feature branches to a shared **QA** branch for integration and play-testing, and only then to **main** (auto-deployed to Vercel) and **android-app** (the Android build)._
 
-| Sprint | Dates (2026) | Sprint goal | Main outcomes |
-| :-- | :-- | :-- | :-- |
-| **1** | 27 Sep – 3 Oct | Mars MVP | Rover controls, scanner, HUD, the Opportunity story, CI/CD to Vercel |
-| **2** | 4 – 28 Oct | Research and data | NASA PDS and mission sources, pitch and story script, lunar relic data |
-| **3** | 29 Oct – 4 Nov | Three worlds | The Moon and Voyager 1, four science labs, 3D orrery, companion bots, onboarding wizard |
-| **4** | 5 – 9 Nov | Kid-friendly UX | First-visit tips, game tour video and story film, submission documents |
-| **5** | 9 – 12 Nov | Mobile and release | Touch arrow pad and landscape mode, mobile-friendly pop-ups, Android app, QA → main release flow |
+| Sprint | Sprint goal | Main outcomes |
+| :-- | :-- | :-- |
+| **1** | Mars MVP | Rover controls, scanner, HUD, the Opportunity story, CI/CD to Vercel |
+| **2** | Research and data | NASA PDS and mission sources, pitch and story script, lunar relic data |
+| **3** | Three worlds | The Moon and Voyager 1, four science labs, 3D orrery, companion bots, onboarding wizard |
+| **4** | Kid-friendly UX | First-visit tips, game tour video and story film, submission documents |
+| **5** | Mobile and release | Touch arrow pad and landscape mode, mobile-friendly pop-ups, Android app, QA → main release flow |
 
 **Our working agreements**
 
@@ -403,7 +411,7 @@ In line with the Space Apps guidance, we state clearly how AI was used:
 | **NASA Mars Reconnaissance Orbiter / HiRISE** | Reference for the character of Perseverance Valley terrain used to shape the procedural Mars surface. |
 | **NASA Lunar Reconnaissance Orbiter / LOLA** | Reference for lunar terrain character used to shape the procedural Moon surface. |
 | **NASA mission archives** — Surveyor 1 and 3, Apollo 11 and 12, LRV, LCROSS | Historical facts, dates and relic descriptions. |
-| **NASA/JPL** — InSight and Voyager | Seismology facts (marsquake count) and Voyager facts (distance, 22 h 34 min light time, RTG decay, Golden Record). |
+| **NASA/JPL** — InSight and Voyager | Seismology facts (marsquake count) and Voyager facts (distance of about 25.9 billion km — one light-day, reached on 18 November 2026 — RTG decay, Golden Record). |
 | **NASA Eyes on the Solar System** | Inspiration for the hub's interactive 3D solar-system view. |
 | **NASA 3D Resources and JPL hardware references** | Reference for the shapes and proportions of the hardware models. |
 

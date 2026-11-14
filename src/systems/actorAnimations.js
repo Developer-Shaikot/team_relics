@@ -30,7 +30,7 @@ export const PROLOGUE_SCENES = [
     speaker: "ASHA & LEO (Junior Deep Space Network)",
     emotion: "celebrating",
     dialogue: "Together, we built the 'Junior Deep Space Network'! Our mission: lock onto four legendary NASA pioneers—Apollo 11 on the Moon, Opportunity and InSight on Mars, and Voyager 1 in Deep Space—solve their real physics puzzles, and recover their Final Memory Logs!",
-    scienceNote: "4 Flagship Missions: (1) Apollo 11 Delta-V Staging • (2) Oppy APXS Spectroscopy • (3) InSight P/S Wave Seismology • (4) Voyager 1 RTG & 22h Light-Delay."
+    scienceNote: "4 Flagship Missions: (1) Apollo 11 Delta-V Staging • (2) Oppy APXS Spectroscopy • (3) InSight P/S Wave Seismology • (4) Voyager 1 RTG & 24h Light-Delay."
   }
 ];
 

@@ -65,7 +65,7 @@ function initApplication() {
   const moonRover = createLunarRover();
   const moonAtmosphere = createLunarAtmosphere(scene);
 
-  // Deep Space Assets (Voyager 1 Actor at 24.3 Billion km)
+  // Deep Space Assets (Voyager 1 Actor at 25.9 Billion km)
   const deepSpaceVoyager = createDeepSpaceVoyager();
 
   // Groups currently added to scene
@@ -179,7 +179,7 @@ function initApplication() {
       items = [
         { id: 'golden_record', label: '12-Inch Golden Record (55 Languages)', highlight: true },
         { id: 'voyager_rtg', label: 'Pu-238 RTG Nuclear Battery (-4W/yr)' },
-        { id: 'voyager_hga', label: '3.7m High-Gain Dish (22h 34m Delay)' },
+        { id: 'voyager_hga', label: '3.7m High-Gain Dish (23h 59m Delay)' },
         { id: 'voyager_iss', label: 'ISS Camera ("Pale Blue Dot" Portrait)' },
         { id: 'voyager_mag', label: '13m Heliopause Magnetometer Boom' }
       ];
@@ -283,15 +283,15 @@ function initApplication() {
       scene.background = new THREE.Color(0x010308);
 
       if (tauCardLabel) tauCardLabel.innerText = 'INTERSTELLAR MEDIUM';
-      if (hudTau) hudTau.innerText = '24.3B';
+      if (hudTau) hudTau.innerText = '25.9B';
       if (hudTauUnit) hudTauUnit.innerText = 'km from Earth';
-      if (hudExtinction) hudExtinction.innerText = 'Beyond Heliopause (163 AU)';
+      if (hudExtinction) hudExtinction.innerText = 'Beyond Heliopause (173 AU)';
       if (powerCardLabel) powerCardLabel.innerText = 'PU-238 RTG NUCLEAR OUTPUT';
       if (hudPower) hudPower.innerText = '249';
       if (hudPowerUnit) hudPowerUnit.innerText = 'Watts';
       if (hudPowerBaseline) hudPowerBaseline.innerText = 'Decay Rate: -4.0 W / Year (87.7-yr Half-Life)';
       if (voltCardLabel) voltCardLabel.innerText = 'ONE-WAY LIGHT DELAY';
-      if (hudVoltage) hudVoltage.innerText = '22h 34m';
+      if (hudVoltage) hudVoltage.innerText = '23h 59m';
       if (hudVoltUnit) hudVoltUnit.innerText = 'at c';
       if (hudVoltSub) hudVoltSub.innerText = 'Round-Trip Handshake: 45 Hours 08 Mins';
       if (siteName) siteName.innerText = 'Interstellar Space (Constellation Ophiuchus)';
@@ -380,7 +380,7 @@ function initApplication() {
         planet === 'moon'
           ? '🌕 Moon: Sea of Tranquility'
           : planet === 'deepspace'
-            ? '🌌 Deep Space: Voyager 1 (24.3B km)'
+            ? '🌌 Deep Space: Voyager 1 (25.9B km)'
             : '🔴 Mars: Perseverance Valley & InSight';
     }
 
@@ -448,10 +448,10 @@ function initApplication() {
         if (distValElem) distValElem.innerText = '100% LINK';
       } else {
         if (iconElem) iconElem.innerText = '📡';
-        if (badgeElem) badgeElem.innerText = 'LEVEL 6 • DEEP SPACE • 24.3 BILLION KM';
+        if (badgeElem) badgeElem.innerText = 'LEVEL 6 • DEEP SPACE • 25.9 BILLION KM';
         if (nameElem) nameElem.innerText = 'Save Voyager 1 & Call Earth';
         if (subElem) subElem.innerText = 'Press [E] to open the Science Lab → switch off instruments until power is below 249 W → press TRANSMIT HANDSHAKE';
-        if (distValElem) distValElem.innerText = '22h 34m delay';
+        if (distValElem) distValElem.innerText = '23h 59m delay';
       }
       return;
     }
@@ -775,12 +775,12 @@ function initApplication() {
         bn: "২০১৮ সালের জুনে এক ভয়াবহ বিশ্বব্যাপী ধূলিঝড় মঙ্গলকে ঢেকে ফেলে। বায়ুমণ্ডলের অপটিক্যাল টাউ ১০.৮-এ পৌঁছায় এবং ৯৯.৯৯৮% সূর্যালোক ঢেকে যায়। সোলার প্যানেলের শক্তি মাত্র ২২ ওয়াটে নেমে আসে এবং অপরচুনিটি তার বিদায়ী বার্তা পাঠায়: 'আমার ব্যাটারি কমে গেছে এবং চারপাশ অন্ধকার হয়ে আসছে।'"
       },
       blackbox_core: {
-        en: "Launched in 1977, Voyager 1 is cruising through interstellar space over 24.3 billion kilometers away. Onboard is the Golden Record—a gold-plated copper disc holding Earth's sounds, music, and spoken greetings in 55 languages including Bengali ('নমস্কার! বিশ্বে শান্তি হোক'), voyaging into eternity as humanity's eternal love letter to the stars.",
-        bn: "১৯৭৭ সালে উৎক্ষেপিত ভয়েজার ১ এখন পৃথিবী থেকে ২৪.৩ বিলিয়ন কিলোমিটার দূরে আন্তঃনাক্ষত্রিক মহাকাশে ছুটে চলেছে। এতে সংরক্ষিত আছে গোল্ডেন রেকর্ড—যার মধ্যে রয়েছে পৃথিবীর সুর, শব্দ এবং বাংলাসহ ৫৫টি ভাষায় শুভেচ্ছা বার্তা ('নমস্কার! বিশ্বে শান্তি হোক')।"
+        en: "Launched in 1977, Voyager 1 is cruising through interstellar space about 25.9 billion kilometers away. Onboard is the Golden Record—a gold-plated copper disc holding Earth's sounds, music, and spoken greetings in 55 languages including Bengali ('নমস্কার! বিশ্বে শান্তি হোক'), voyaging into eternity as humanity's eternal love letter to the stars.",
+        bn: "১৯৭৭ সালে উৎক্ষেপিত ভয়েজার ১ এখন পৃথিবী থেকে ২৫.৯ বিলিয়ন কিলোমিটার দূরে আন্তঃনাক্ষত্রিক মহাকাশে ছুটে চলেছে। এতে সংরক্ষিত আছে গোল্ডেন রেকর্ড—যার মধ্যে রয়েছে পৃথিবীর সুর, শব্দ এবং বাংলাসহ ৫৫টি ভাষায় শুভেচ্ছা বার্তা ('নমস্কার! বিশ্বে শান্তি হোক')।"
       },
       mission_blackbox: {
-        en: "Launched in 1977, Voyager 1 is cruising through interstellar space over 24.3 billion kilometers away. Onboard is the Golden Record—a gold-plated copper disc holding Earth's sounds, music, and spoken greetings in 55 languages including Bengali ('নমস্কার! বিশ্বে শান্তি হোক'), voyaging into eternity as humanity's eternal love letter to the stars.",
-        bn: "১৯৭৭ সালে উৎক্ষেপিত ভয়েজার ১ এখন পৃথিবী থেকে ২৪.৩ বিলিয়ন কিলোমিটার দূরে আন্তঃনাক্ষত্রিক মহাকাশে ছুটে চলেছে। এতে সংরক্ষিত আছে গোল্ডেন রেকর্ড—যার মধ্যে রয়েছে পৃথিবীর সুর, শব্দ এবং বাংলাসহ ৫৫টি ভাষায় শুভেচ্ছা বার্তা ('নমস্কার! বিশ্বে শান্তি হোক')।"
+        en: "Launched in 1977, Voyager 1 is cruising through interstellar space about 25.9 billion kilometers away. Onboard is the Golden Record—a gold-plated copper disc holding Earth's sounds, music, and spoken greetings in 55 languages including Bengali ('নমস্কার! বিশ্বে শান্তি হোক'), voyaging into eternity as humanity's eternal love letter to the stars.",
+        bn: "১৯৭৭ সালে উৎক্ষেপিত ভয়েজার ১ এখন পৃথিবী থেকে ২৫.৯ বিলিয়ন কিলোমিটার দূরে আন্তঃনাক্ষত্রিক মহাকাশে ছুটে চলেছে। এতে সংরক্ষিত আছে গোল্ডেন রেকর্ড—যার মধ্যে রয়েছে পৃথিবীর সুর, শব্দ এবং বাংলাসহ ৫৫টি ভাষায় শুভেচ্ছা বার্তা ('নমস্কার! বিশ্বে শান্তি হোক')।"
       }
     };
 
@@ -1376,7 +1376,7 @@ function initApplication() {
       } else if (!earlierDone && !questManager.completedMissions.has('mission_blackbox')) {
         msg = '📡 Uplink locked! Finish Levels 1–5 first, then come back to beam to Voyager 1.';
       } else {
-        msg = '📡 Uplink established! Beaming you to Voyager 1, 24.3 billion km away…';
+        msg = '📡 Uplink established! Beaming you to Voyager 1, 25.9 billion km away…';
         setTimeout(() => spawnRoverForMission('mission_blackbox'), 1200);
       }
       coinsManager.showFloatingPickupText?.(msg);
@@ -1498,10 +1498,10 @@ function initApplication() {
         scanDispatch = selectedCommander === 'asha'
           ? (isBn
             ? 'কমান্ডার আশা: "এই ৩.৭ মিটার সাদা ডিশটি পৃথিবীমুখী তাক করা। আলোর গতিতে চলা রেডিও সিগন্যালও এখান থেকে নাসার ডিপ স্পেস নেটওয়ার্কে পৌঁছাতে ২২ ঘণ্টা ৩৪ মিনিট সময় নেয়!"'
-            : 'Commander Asha: "This 3.7m parabolic dish focuses radio waves straight at Earth. Even traveling at light speed (300,000 km/s), it takes 22h 34m for each bit of telemetry to reach NASA\'s 70-meter dishes!"')
+            : 'Commander Asha: "This 3.7m parabolic dish focuses radio waves straight at Earth. Even traveling at light speed (300,000 km/s), it takes about 24 hours for each bit of telemetry to reach NASA\'s 70-meter dishes!"')
           : (isBn
-            ? 'কমান্ডার লিও: "২৪.৩ বিলিয়ন কিমি দূর থেকে ভয়েজার ১ প্রতি সেকেন্ডে মাত্র ১৬০ বিট ডেটা পৃথিবীতে পাঠায়! পৃথিবী থেকে কোনো কমান্ড পাঠালে ফিরতি উত্তর পেতে ৪৫ ঘণ্টারও বেশি সময় লাগে!"'
-            : 'Commander Leo: "Voyager 1 beams a whisper-thin 160 bits/sec radio signal across 24.3 billion km. A round-trip communication handshake takes over 45 hours!"');
+            ? 'কমান্ডার লিও: "২৫.৯ বিলিয়ন কিমি দূর থেকে ভয়েজার ১ প্রতি সেকেন্ডে মাত্র ১৬০ বিট ডেটা পৃথিবীতে পাঠায়! পৃথিবী থেকে কোনো কমান্ড পাঠালে ফিরতি উত্তর পেতে ৪৫ ঘণ্টারও বেশি সময় লাগে!"'
+            : 'Commander Leo: "Voyager 1 beams a whisper-thin 160 bits/sec radio signal across 25.9 billion km. A round-trip communication handshake takes about 48 hours — two whole days!"');
       } else if (scanId === 'voyager_rtg') {
         badgeTitle = isBn ? 'পিউ-২৩৮ নিউক্লিয়ার ব্যাটারি (RTG)' : 'PU-238 NUCLEAR BATTERY (RTG)';
         scanDispatch = selectedCommander === 'asha'
@@ -1542,11 +1542,11 @@ function initApplication() {
         badgeTitle = isBn ? 'ভয়েজার ১ কমিউনিকেশন সেন্টার' : 'VOYAGER 1 COMM CENTER';
         scanDispatch = selectedCommander === 'asha'
           ? (isBn
-            ? 'কমান্ডার আশা (ঢাকা অ্যান্টেনা): "২৪.৩ বিলিয়ন কিমি দূর থেকে ভয়েজার ১ আমাদের ডেটা পাঠাচ্ছে! চলো সায়েন্স ল্যাবে গিয়ে পিউ-২৩৮ ব্যাটারি ব্যালেন্স করি এবং ২২ ঘণ্টার রেডিও হ্যান্ডশেক সম্পন্ন করি!"'
-            : 'Commander Asha: "Signal locked across 24.3 billion km! Let\'s open the Science Lab to balance the Pu-238 RTG battery and broadcast the Golden Record!"')
+            ? 'কমান্ডার আশা (ঢাকা অ্যান্টেনা): "২৫.৯ বিলিয়ন কিমি দূর থেকে ভয়েজার ১ আমাদের ডেটা পাঠাচ্ছে! চলো সায়েন্স ল্যাবে গিয়ে পিউ-২৩৮ ব্যাটারি ব্যালেন্স করি এবং ২২ ঘণ্টার রেডিও হ্যান্ডশেক সম্পন্ন করি!"'
+            : 'Commander Asha: "Signal locked across 25.9 billion km! Let\'s open the Science Lab to balance the Pu-238 RTG battery and broadcast the Golden Record!"')
           : (isBn
-            ? 'কমান্ডার লিও (ফ্লোরিডা কনসোল): "২৪.৩ বিলিয়ন কিমি দূর থেকে ভয়েজার ১ ডেটা পাঠাচ্ছে! সায়েন্স ল্যাব ওপেন করে নিউক্লিয়ার পাওয়ার বাজেট ঠিক করো ও রেডিও হ্যান্ডশেক সম্পন্ন করো!"'
-            : 'Commander Leo: "24.3 billion km away! Let\'s open the Science Lab to balance Voyager 1\'s decaying Pu-238 RTG power and play the Golden Record!"');
+            ? 'কমান্ডার লিও (ফ্লোরিডা কনসোল): "২৫.৯ বিলিয়ন কিমি দূর থেকে ভয়েজার ১ ডেটা পাঠাচ্ছে! সায়েন্স ল্যাব ওপেন করে নিউক্লিয়ার পাওয়ার বাজেট ঠিক করো ও রেডিও হ্যান্ডশেক সম্পন্ন করো!"'
+            : 'Commander Leo: "25.9 billion km away! Let\'s open the Science Lab to balance Voyager 1\'s decaying Pu-238 RTG power and play the Golden Record!"');
       }
 
       actorDirector.triggerCommsDialogue(
@@ -2518,12 +2518,12 @@ function initApplication() {
         const waypointSub = document.getElementById('waypoint-sub');
         const waypointDist = document.getElementById('waypoint-dist-val');
 
-        if (waypointBadge) waypointBadge.innerText = isBn ? 'ইন্টারস্টেলার মিশন' : 'INTERSTELLAR (24.3B KM)';
+        if (waypointBadge) waypointBadge.innerText = isBn ? 'ইন্টারস্টেলার মিশন' : 'INTERSTELLAR (25.9B KM)';
         if (waypointName) waypointName.innerText = isBn ? 'ভয়েজার ১ এবং গোল্ডেন রেকর্ড' : 'Voyager 1 & The Golden Record';
         if (waypointSub) waypointSub.innerText = isBn
           ? 'W, A, S, D দিয়ে মহাকাশযান ঘোরান। গোল্ডেন রেকর্ড ও অ্যান্টেনা ক্লিক করে পরীক্ষা করুন!'
           : 'Rotate with W/A/S/D or Mouse Drag. Click Golden Record & Antenna to inspect!';
-        if (waypointDist) waypointDist.innerText = '24.3B km';
+        if (waypointDist) waypointDist.innerText = '25.9B km';
 
         // Interactive HUD action pill for Voyager 1 Science Lab (Manual player click, never automated!)
         const commsPillEl = document.getElementById('hud-comms-alert-pill');
@@ -3039,8 +3039,8 @@ function initApplication() {
     home: '🎮 3D CELESTIAL ORRERY • DRAG TO ROTATE 3D WORLDS',
     moon: '🌕 THE MOON: 3D TRANQUILITY BASE • APOLLO 11 LANDING SITE',
     mars: '🔴 MARS: 3D PERSEVERANCE VALLEY • OPPORTUNITY MER-B',
-    voyager: '🌌 VOYAGER 1: 3D INTERSTELLAR EXPEDITION (24.3 BILLION KM)',
-    deepspace: '🌌 VOYAGER 1: 3D INTERSTELLAR EXPEDITION (24.3 BILLION KM)'
+    voyager: '🌌 VOYAGER 1: 3D INTERSTELLAR EXPEDITION (25.9 BILLION KM)',
+    deepspace: '🌌 VOYAGER 1: 3D INTERSTELLAR EXPEDITION (25.9 BILLION KM)'
   };
 
   let orreryResetTimer = null;
@@ -3861,13 +3861,13 @@ function initApplication() {
 
     setText(flightGVal, currentPlanet === 'moon' ? '0.16 <small>G</small>' : currentPlanet === 'deepspace' ? '0.00 <small>G</small>' : '0.38 <small>G</small>', true);
 
-    setText(flightAltVal, currentPlanet === 'deepspace' ? '163 AU' : `${attitude.altitudeM} m`);
+    setText(flightAltVal, currentPlanet === 'deepspace' ? '173 AU' : `${attitude.altitudeM} m`);
 
     // 4. Target Relic & Distance (always follows the ACTIVE mission, never hard-coded per planet)
     if (flightTargetVal && flightTargetDist) {
       if (currentPlanet === 'deepspace') {
         setText(flightTargetVal, 'VOYAGER 1 & GOLDEN RECORD');
-        setText(flightTargetDist, 'HELIOPAUSE • 24.3 BILLION KM');
+        setText(flightTargetDist, 'HELIOPAUSE • 25.9 BILLION KM');
       } else {
         const activeMissionForHud = getActiveMission();
         const activeArtifactForHud = activeMissionForHud ? getActiveMissionArtifact(activeMissionForHud.id) : null;

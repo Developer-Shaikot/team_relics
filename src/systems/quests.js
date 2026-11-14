@@ -1020,8 +1020,8 @@ export class MissionQuestManager {
       if (nameEl) nameEl.innerText = `${recipientName} • ${isBn ? 'ইন্টারস্টেলার মাস্টার পায়োনিয়ার' : 'INTERSTELLAR MASTER PIONEER'}`;
       if (descEl) {
         descEl.innerText = isBn
-          ? `${cmdrTitle} মহাবিশ্বের ২৪.৩ বিলিয়ন কিলোমিটার (১৬২ এইউ) দূরে হেলিওপজ অতিক্রমকারী ভয়েজার ১ মহাকাশযানের পিউ-২৩৮ নিউক্লিয়ার ব্যাটারি ব্যালেন্স করে এবং ২২ ঘণ্টা ৩৪ মিনিটের রেডিও লিঙ্ক অতিক্রম করে গোল্ডেন রেকর্ড হ্যান্ডশেক সফলভাবে সম্পন্ন করেছেন!`
-          : `certifies that ${cmdrTitle} has successfully mastered the Interstellar Expedition across 24.3 billion kilometers (162 AU)—balancing Voyager 1's decaying Pu-238 RTG nuclear power, establishing the 22h 34m light-speed radio link past the Heliopause, and broadcasting the Golden Record across the cosmos!`;
+          ? `${cmdrTitle} মহাবিশ্বের ২৫.৯ বিলিয়ন কিলোমিটার (১৬২ এইউ) দূরে হেলিওপজ অতিক্রমকারী ভয়েজার ১ মহাকাশযানের পিউ-২৩৮ নিউক্লিয়ার ব্যাটারি ব্যালেন্স করে এবং ২২ ঘণ্টা ৩৪ মিনিটের রেডিও লিঙ্ক অতিক্রম করে গোল্ডেন রেকর্ড হ্যান্ডশেক সফলভাবে সম্পন্ন করেছেন!`
+          : `certifies that ${cmdrTitle} has successfully mastered the Interstellar Expedition across 25.9 billion kilometers (173 AU)—balancing Voyager 1's decaying Pu-238 RTG nuclear power, establishing the 23h 59m light-speed radio link past the Heliopause, and broadcasting the Golden Record across the cosmos!`;
       }
     } else if (kind === 'moon') {
       if (tagEl) tagEl.innerText = isBn ? 'নাসা স্পেস অ্যাপস • চন্দ্রাভিযান একাডেমি' : 'NASA SPACE APPS • LUNAR EXPEDITION ACADEMY';
@@ -1047,8 +1047,8 @@ export class MissionQuestManager {
       if (nameEl) nameEl.innerText = `${recipientName} • ${isBn ? 'গ্র্যান্ড মাস্টার এক্সপ্লোরার' : 'GRAND MASTER EXPLORER'}`;
       if (descEl) {
         descEl.innerText = isBn
-          ? `${cmdrTitle} চাঁদ ও মঙ্গলের সকল ঐতিহাসিক নাসা জেপিএল প্রত্নতাত্ত্বিক মিশন সাফল্যের সাথে সম্পন্ন করে মহাবিশ্বের ২৪.৩ বিলিয়ন কিলোমিটার দূরের ভয়েজার ১-এর সাথে গোল্ডেন রেকর্ড হ্যান্ডশেক সম্পন্ন করেছেন।`
-          : `certifies that ${cmdrTitle} has successfully mastered the complete NASA Moon & Mars Expedition roadmaps across both worlds and completed the Interstellar Handshake with Voyager 1 across 24.3 billion kilometers!`;
+          ? `${cmdrTitle} চাঁদ ও মঙ্গলের সকল ঐতিহাসিক নাসা জেপিএল প্রত্নতাত্ত্বিক মিশন সাফল্যের সাথে সম্পন্ন করে মহাবিশ্বের ২৫.৯ বিলিয়ন কিলোমিটার দূরের ভয়েজার ১-এর সাথে গোল্ডেন রেকর্ড হ্যান্ডশেক সম্পন্ন করেছেন।`
+          : `certifies that ${cmdrTitle} has successfully mastered the complete NASA Moon & Mars Expedition roadmaps across both worlds and completed the Interstellar Handshake with Voyager 1 across 25.9 billion kilometers!`;
       }
     }
 

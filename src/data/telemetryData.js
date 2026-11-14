@@ -125,7 +125,7 @@ export const SCIENTIFIC_PAYLOADS = [
     name: "MHW-RTG Plutonium-238 Nuclear Thermoelectric Generators",
     abbreviation: "PU238-RTG",
     location: "Voyager 1 Left-Rear Outrigger Boom",
-    discoveries: "Three Multihundred-Watt Radioisotope Thermoelectric Generators converting Plutonium-238 radioactive decay heat into electricity. Losing ~4 Watts per year since 1977, requiring careful power budgeting at 24.3 billion km.",
+    discoveries: "Three Multihundred-Watt Radioisotope Thermoelectric Generators converting Plutonium-238 radioactive decay heat into electricity. Losing ~4 Watts per year since 1977, requiring careful power budgeting at 25.9 billion km.",
     wavelengths: "Alpha Decay Thermal Conversion (Half-life: 87.7 Years)",
     resolution: "470W at Launch (1977) → ~249W in Interstellar Space",
     significance: "The nuclear heartbeat keeping humanity's farthest ambassador alive in pitch-black interstellar space."
@@ -135,7 +135,7 @@ export const SCIENTIFIC_PAYLOADS = [
     name: "Voyager 1 3.7-Meter High-Gain Parabolic Dish",
     abbreviation: "VGR-HGA",
     location: "Primary Bus Forward Axis",
-    discoveries: "Maintains the 22-hour 34-minute one-way light-travel telemetry link with NASA's Deep Space Network across 24.3 billion kilometers.",
+    discoveries: "Maintains the 24-hour (one light-day) one-way light-travel telemetry link with NASA's Deep Space Network across 25.9 billion kilometers.",
     wavelengths: "S-Band (2.29 GHz) & X-Band (8.42 GHz)",
     resolution: "160 bits per second interstellar telemetry stream",
     significance: "Longest-distance radio handshake in human history."
@@ -321,7 +321,7 @@ export const ARCHAEOLOGICAL_ARTIFACTS_MARS = [
     planet: "mars",
     title: "Deep Space Network Uplink Dish (Level 6 Launch Site)",
     coords: { x: 0.0, y: 0.0, z: 24.0 },
-    description: "A high-gain relay dish pointed beyond the Heliopause. Scanning it opens the 22-hour radio link to Voyager 1, 24.3 billion km away, where the Level 6 Golden Record task waits.",
+    description: "A high-gain relay dish pointed beyond the Heliopause. Scanning it opens the 24-hour radio link to Voyager 1, 25.9 billion km away, where the Level 6 Golden Record task waits.",
     significance: "Mars' gateway to humanity's farthest spacecraft.",
     icon: "satellite",
     color: 0xa855f7
@@ -413,9 +413,9 @@ export const ARCHAEOLOGICAL_ARTIFACTS_DEEPSPACE = [
     id: "voyager1",
     missionId: "mission_blackbox",
     planet: "deepspace",
-    title: "Voyager 1 Interstellar Probe & The Golden Record (24.3B km)",
+    title: "Voyager 1 Interstellar Probe & The Golden Record (25.9B km)",
     coords: { x: 0.0, y: 0.6, z: 0.0 },
-    description: "Humanity's farthest spacecraft, 24.3 billion km from Earth in interstellar space beyond the Heliosphere. Powered by decaying Plutonium-238 RTGs and carrying the 12-inch gold-plated Golden Record.",
+    description: "Humanity's farthest spacecraft, 25.9 billion km from Earth in interstellar space beyond the Heliosphere. Powered by decaying Plutonium-238 RTGs and carrying the 12-inch gold-plated Golden Record.",
     significance: "First human-made object to enter interstellar space and carry Earth's 55 greetings to the stars.",
     icon: "satellite",
     color: 0xffb700

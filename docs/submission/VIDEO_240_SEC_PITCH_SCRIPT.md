@@ -176,7 +176,7 @@ Real game footage, full screen, cut to the beat, with two quick cut-aways to stu
 | 2:14 – 2:19 | Hub: hover Moon, Mars, Voyager 1; the 3D background flies to each (Figure 4) | Three worlds |
 | 2:19 – 2:26 | Moon: drive to the beacon, radar map tracking the dot (Figure 5) | Drive with W A S D |
 | 2:26 – 2:33 | Scan prompt beside Surveyor 1, press **E**, relic log opens (Figure 6) | Surveyor 1 · 1966 |
-| 2:33 – 2:39 | Voyager 1 turning in deep space, then the Voyager power lab (Figure 7) | 22 h 34 min light delay |
+| 2:33 – 2:39 | Voyager 1 turning in deep space, then the Voyager power lab (Figure 7) | ~24 h light delay (one light-day) |
 | 2:39 – 2:45 | Space Quiz: correct answer, confetti (Figure 8) | Quiz · badges · certificate |
 
 | Element | Detail |
@@ -294,7 +294,7 @@ Record every game shot from the current build, at the same size as the final vid
 - [ ] Every spoken line has a burned-in English caption (large, high-contrast, safe-area aware).
 - [ ] Voice sits clearly above the music (aim for music about 18 dB under speech).
 - [ ] Game footage is sharp at 1080p; no browser bars, bookmarks or notifications visible.
-- [ ] Facts match the game and the submission document: Surveyor 1 (1966), Opportunity (built for 90 days, worked 5,111 sols), Voyager 1 (22 h 34 min light delay).
+- [ ] Facts match the game and the submission document: Surveyor 1 (1966), Opportunity (built for 90 days, worked 5,111 sols), Voyager 1 (~24 h light delay (one light-day)).
 - [ ] Team names and roles are spelled correctly; end card link filled in and readable for at least 5 seconds.
 - [ ] Export: H.264 MP4, 1920 × 1080, 30 fps, about 10–16 Mbps, AAC 192 kbps.
 
