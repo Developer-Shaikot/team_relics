@@ -1,0 +1,42 @@
+# Android app lives ONLY on the `android-app` branch (see docs/BRANCHES.md).
+# When you switch from android-app to QA/main, git leaves local Android files behind
+# (signing settings, Gradle builds, APK/AAB). Never commit them here.
+# The android-app branch re-includes android/ with `!android/` at the end of its .gitignore.
+android/
+# Build outputs: APK/AAB and the cPanel zip (npm run package:cpanel)
+release/
+*.jks
+*.keystore
+keystore.properties
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Node modules
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
